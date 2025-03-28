@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cart-items">
+            <h2>Items in Your Cart</h2>
+            <ul>
+                <!-- Cart items will be dynamically inserted here -->
+                <li>
+                    <h3>Product Name</h3>
+                    <p>Price: $XX.XX</p>
+                    <button>Remove</button>
+                </li>
+                <!-- Repeat for each item in the cart -->
+            </ul>
+        </section>
+        <section id="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Total: $XX.XX</p>
+            <button onclick="location.href='checkout.html'">Proceed to Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Abdullahi's Enterprice</p>
+    </footer>
+</body>
+</html>
